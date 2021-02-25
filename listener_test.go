@@ -15,8 +15,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/transport"
 
 	ma "github.com/multiformats/go-multiaddr"
-	manet "github.com/multiformats/go-multiaddr-net"
-
+	manet "github.com/multiformats/go-multiaddr/net"
 	st "github.com/libp2p/go-libp2p-transport-upgrader"
 
 	"github.com/stretchr/testify/require"

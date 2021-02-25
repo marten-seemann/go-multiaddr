@@ -6,10 +6,9 @@ import (
 	"sync"
 
 	"github.com/libp2p/go-libp2p-core/transport"
-
 	logging "github.com/ipfs/go-log"
 	tec "github.com/jbenet/go-temp-err-catcher"
-	manet "github.com/multiformats/go-multiaddr-net"
+	manet "github.com/multiformats/go-multiaddr/net"
 )
 
 var log = logging.Logger("stream-upgrader")
